@@ -10,7 +10,7 @@ class ApiDataSource extends GetConnect {
         await get('https://api-football-beta.p.rapidapi.com/fixtures', query: {
       'date': '2020-02-06'
     }, headers: {
-      'X-RapidAPI-Key': '237e224c91msh0b8e5c270bc8c58p1ee6afjsn6ff9f8d2276d',
+      'X-RapidAPI-Key': '34b7eda7d2msh465aaae5b70ea14p199c29jsnec4b2335e832',
       'X-RapidAPI-Host': 'api-football-beta.p.rapidapi.com'
     });
 

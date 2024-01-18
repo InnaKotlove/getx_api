@@ -38,7 +38,7 @@ class HomeScreen extends GetView<HomeController> {
         horizontal: 16,
       ),
       padding: const EdgeInsets.all(10),
-      height: 150,
+      height: 170,
       width: Get.width,
       color: Colors.blue,
       child: Row(
@@ -54,6 +54,7 @@ class HomeScreen extends GetView<HomeController> {
               ),
               const SizedBox(height: 10),
               Text(item.teams.home.name),
+              Text(item.goals.home?.toString() ?? '-'),
             ],
           ),
           Column(
@@ -65,6 +66,7 @@ class HomeScreen extends GetView<HomeController> {
               ),
               const SizedBox(height: 10),
               Text(item.teams.away.name),
+              Text(item.goals.away?.toString() ?? '-'),
             ],
           ),
         ],

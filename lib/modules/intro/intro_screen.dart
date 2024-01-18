@@ -12,7 +12,7 @@ class IntroScreen extends GetView<IntroController> {
 
     return Scaffold(
       body: Center(
-        child: Lottie.asset('assets/animations/lottie.json'),
+        child: Lottie.asset('assets/animations/lottieball.json'),
       ),
     );
   }

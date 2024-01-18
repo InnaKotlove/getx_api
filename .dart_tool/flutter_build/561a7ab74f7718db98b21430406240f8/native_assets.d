@@ -1,0 +1,1 @@
+ /home/user/Projects/getx_my/getx_api/.dart_tool/flutter_build/561a7ab74f7718db98b21430406240f8/native_assets.yaml: 

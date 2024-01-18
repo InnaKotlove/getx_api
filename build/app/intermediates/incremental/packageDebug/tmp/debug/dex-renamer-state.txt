@@ -1,0 +1,4 @@
+#Thu Jan 18 12:51:49 CET 2024
+base.0=/home/user/Projects/getx_my/getx_api/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
