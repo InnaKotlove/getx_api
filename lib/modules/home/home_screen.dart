@@ -40,7 +40,7 @@ class HomeScreen extends GetView<HomeController> {
       padding: const EdgeInsets.all(10),
       height: 170,
       width: Get.width,
-      color: Colors.blue,
+      color: Colors.grey,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.center,
